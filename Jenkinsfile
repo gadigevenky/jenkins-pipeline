@@ -40,7 +40,7 @@ pipeline {
 }
         post {
         always {
-            // Always executed with below command
+            // Always executed
                 sh 'docker rm python-app'
         }
         success {
